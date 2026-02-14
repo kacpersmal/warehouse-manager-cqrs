@@ -1,3 +1,12 @@
 <Solution>
+  <Folder Name="/Modules/" />
+  <Folder Name="/Modules/Identity/">
+    <Project Path="Modules.Identity.Application/Modules.Identity.Application.csproj" />
+    <Project Path="Modules.Identity.Domain/Modules.Identity.Domain.csproj" />
+    <Project Path="Modules.Identity.Infrastructure/Modules.Identity.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Shared.Application/Shared.Application.csproj" />
+  </Folder>
   <Project Path="Host/Host.csproj" />
 </Solution>
