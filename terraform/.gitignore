@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/
+
+# Plan files
+*.tfplan
+tfplan
+
+# State files — except bootstrap state which must be preserved
+*.tfstate
+*.tfstate.backup
+!bootstrap/terraform.tfstate
+!bootstrap/terraform.tfstate.backup
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Variable files that may contain secrets
+*.auto.tfvars
+
+# Crash logs
+crash.log
+crash.*.log
